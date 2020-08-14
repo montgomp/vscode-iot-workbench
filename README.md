@@ -86,17 +86,6 @@ Please take the [survey](https://www.surveymonkey.com/r/C7NY7KJ) to let us know 
 
 ## Commands
 
-### IoT Plug and Play
-
-| Command | Description |
-| --- | --- |
-| `IoT Plug and Play: Create Capability Model...`  | Create new IoT Plug and Play device capability model file. |
-| `IoT Plug and Play: Create Interface...` | Create new IoT Plug and Play interface file. |
-| `IoT Plug and Play: Generate Device Code Stub...` | Generate skeleton device code and project based on given device capability model file. |
-| `IoT Plug and Play: Open Model Repository...`  | Open Public or Company Model Repository view to manage device model files. |
-| `IoT Plug and Play: Submit files to Model Repository...`  | Submit files to model repository. |
-| `IoT Plug and Play: Sign out Model Repository`  | Sign out the Company Model Repository. |
-
 ### Generic device development
 
 | Command | Description |
@@ -132,13 +121,13 @@ There are a couple of ways you can contribute to this repo:
   - Open the terminal (press <code>Ctrl + &#96;</code>) and run `npm install`.
   - To build, press `F1` and type in `Tasks: Run Build Task`.
   - Debug: press `F5` to start debugging the extension.
-  - Run `gts check` and `gts fix` to follow TypeScript style guide.  
+  - Run `gts check` and `gts fix` to follow TypeScript style guide.
 - **Example**: Contribute examples for the supported devices.
 
   - Create a git repo to host the code of your example project.
   - Write a tutorial to describe how to run the example.
   - Submit a [new issue](https://github.com/Microsoft/vscode-iot-workbench/issues/new) and provide the following information:
-  
+
     | Item | Description |
     | --- | --- |
     | `Name` | Name of the example to be displayed in example gallery. |
